@@ -20,8 +20,8 @@ public void TestBrowser() throws Exception{
 		driver.get("https://www.google.com/");
 		driver.findElement(By.name("q")).sendKeys("Java",Keys.ENTER);
 		System.out.println(driver.getTitle());
-		Thread.sleep(5000);
-		driver.quit();
+		
+	
 
 }
 }
